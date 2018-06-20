@@ -11,13 +11,8 @@ def run_guessing_game
     when "exit"
       puts "Goodbye!"
       break  
-      else
-        puts "The computer guessed #{num}."
-      end  
-    when "exit"
-      puts "Goodbye!"
-      break
-    
-    end
+    else
+      puts "The computer guessed #{num}."
+    end  
   end  
 end  
