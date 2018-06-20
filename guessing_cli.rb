@@ -7,7 +7,7 @@ def run_guessing_game
     input = gets.chomp
     case input
     when input.to_i 
-      if input.to_i == num
+      if input == num
         puts "You guessed the correct number!"
       else
         puts "The computer guessed #{num}."
