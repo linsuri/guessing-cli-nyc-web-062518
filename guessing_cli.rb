@@ -10,5 +10,5 @@ def run_guessing_game
     else
       puts "Guess a number or type 'exit' to exit"
     end
-    
+  end  
 end  
