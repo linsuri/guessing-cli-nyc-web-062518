@@ -11,9 +11,9 @@ def run_guessing_game
       else
         puts "The computer guessed #{num}."
       end  
-    #when "exit"
-      #puts "Goodbye!"
-      #break
+    when "exit"
+      puts "Goodbye!"
+      break
     else
       puts "Guess a number between 1 and 6."
     end
