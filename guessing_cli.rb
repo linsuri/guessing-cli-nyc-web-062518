@@ -1,7 +1,6 @@
 # Code your solution here!
 def run_guessing_game
   num = rand(0..10)
-  puts "Guess a number between 1 and 6."
   input = ""
   while input
     puts "Guess a number between 1 and 6."
