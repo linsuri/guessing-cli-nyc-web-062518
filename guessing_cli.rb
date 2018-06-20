@@ -7,4 +7,8 @@ def run_guessing_game
     when "exit"
       puts "Goodbye"
       break
+    else
+      puts "Guess a number or type 'exit' to exit"
+    end
+    
 end  
