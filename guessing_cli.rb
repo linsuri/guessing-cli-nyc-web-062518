@@ -1,7 +1,7 @@
 # Code your solution here!
 def run_guessing_game
   num = rand(0..10)
-  puts "Guess a number from 0 to 10 or type 'exit' to exit"
+  puts "Guess a number between 1 and 6."
   input = gets.chomp
   while input
     case input
@@ -9,10 +9,10 @@ def run_guessing_game
       if input.to_i == num
         puts
     when "exit"
-      puts "Goodbye"
+      puts "Goodbye!"
       break
     else
-      puts "Guess a number from 0 to 10 or type 'exit' to exit"
+      puts "Guess a number between 1 and 6."
     end
   end  
 end  
