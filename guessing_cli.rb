@@ -4,6 +4,8 @@ def run_guessing_game
   input = gets.chomp
   while input
     case input
+    when input.to_i 
+      
     when "exit"
       puts "Goodbye"
       break
