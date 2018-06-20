@@ -14,7 +14,8 @@ def run_guessing_game
     when "exit"
       puts "Goodbye!"
       break
-    
+    else
+      puts "Guess a number between 1 and 6."
     end
   end  
 end  
