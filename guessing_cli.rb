@@ -1,6 +1,6 @@
 # Code your solution here!
 def run_guessing_game
-  num = 
+  num = rand()
   puts "Guess a number or type 'exit' to exit"
   input = gets.chomp
   while input
