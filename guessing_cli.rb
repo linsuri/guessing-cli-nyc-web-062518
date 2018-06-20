@@ -4,7 +4,7 @@ def run_guessing_game
   input = ""
   while input
     puts "Guess a number between 1 and 6."
-      input = gets.chomp
+    input = gets.chomp
     case input
     when input.to_i 
       if input.to_i == num
