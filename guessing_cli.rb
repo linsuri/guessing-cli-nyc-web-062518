@@ -6,4 +6,5 @@ def run_guessing_game
     case input
     when "exit"
       puts "Goodbye"
+      break
 end  
