@@ -4,6 +4,6 @@ def run_guessing_game
   input = gets.chomp
   while input
     case input
-  if input == "exit"
-    puts "Goodbye"
+    when "exit"
+      puts "Goodbye"
 end  
